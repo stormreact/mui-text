@@ -1,0 +1,35 @@
+{
+  "name": "ghw-menu",
+  "version": "0.9.1",
+  "private": true,
+  "homepage": "https://stormasm.github.io/ghw-menu",
+  "dependencies": {
+    "@material-ui/core": "^1.4.0",
+    "@material-ui/docs": "^1.0.0-alpha.3",
+    "@material-ui/icons": "^1.1.0",
+    "autosuggest-highlight": "3.1.1",
+    "classnames": "latest",
+    "gh-pages": "^1.2.0",
+    "history": "4.7.2",
+    "lodash": "latest",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-autosuggest": "9.3.4",
+    "react-dom": "latest",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "latest",
+    "recompose": "^0.27.1",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b gh-pages -d build"
+  }
+}
